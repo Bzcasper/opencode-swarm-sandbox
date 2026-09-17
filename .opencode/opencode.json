@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "gemini-web": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Gemini Web Proxy",
+      "options": {
+        "baseURL": "https://robertmcasper--gemini-web-proxy-serve.modal.run/v1",
+        "apiKey": "sk-swarm-local"
+      },
+      "models": {
+        "gemini-3.6-flash": {
+          "name": "gemini-3.6-flash"
+        }
+      }
+    }
+  },
+  "model": "gemini-web/gemini-3.6-flash"
+}
